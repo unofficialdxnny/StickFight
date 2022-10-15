@@ -1,5 +1,6 @@
 # RatEscape
-This repository is for my game project
+<p>This repository is for my game project</p>
+
 ----
 
 ## Tools Used
