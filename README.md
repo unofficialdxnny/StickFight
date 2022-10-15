@@ -8,7 +8,7 @@ This repository is for my game project
 
 ## Libraries Used
 ----
-<img src="https://user-images.githubusercontent.com/82535503/195404390-bafa0f97-e99c-4d8f-a7c5-e5b7849b66bd.png" width=100>
+<img src="https://user-images.githubusercontent.com/82535503/195404390-bafa0f97-e99c-4d8f-a7c5-e5b7849b66bd.png" width=100> <img src="https://img.shields.io/badge/using-pypresence-00bb88.svg?style=for-the-badge&logo=discord&logo" width=150>
 
 ## About
 ----
