@@ -110,6 +110,33 @@
         "name": "Assets\\halloween bg\\halloween bg art.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/PLAY.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\PLAY.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/SETTINGS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\SETTINGS.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/QUIT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\QUIT.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -138,7 +165,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6300000000000002,
+        "zoomFactor": 0.65,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -149,26 +176,11 @@
           "customSize": true,
           "height": 33,
           "layer": "",
-          "name": "Settings",
-          "persistentUuid": "4c23572e-898a-4acc-9ce4-e4b84119f248",
-          "width": 35,
-          "x": 1209,
-          "y": 462,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 33,
-          "layer": "",
           "name": "GitHub",
           "persistentUuid": "1ba7da22-22d6-4df4-b855-bd3998a3fe27",
           "width": 35,
-          "x": 1169,
-          "y": 463,
+          "x": 1221,
+          "y": 461,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -182,8 +194,8 @@
           "name": "Web",
           "persistentUuid": "e66433f6-597b-43dd-9b76-0dc8c955f96d",
           "width": 35,
-          "x": 1128,
-          "y": 463,
+          "x": 1256,
+          "y": 461,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -200,6 +212,51 @@
           "x": -2,
           "y": -2,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PLAY",
+          "persistentUuid": "d00832cd-31e4-41f7-87c8-345d7007011d",
+          "width": 0,
+          "x": 575,
+          "y": 198,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "SETTINGS",
+          "persistentUuid": "3c70ea46-c108-4fac-abcc-159689210bbe",
+          "width": 0,
+          "x": 575,
+          "y": 264,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "QUIT",
+          "persistentUuid": "aef380a6-87ab-408a-93e5-eb23164938ee",
+          "width": 0,
+          "x": 575,
+          "y": 330,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -380,6 +437,129 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PLAY",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Buttons\\PLAY.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "SETTINGS",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Buttons\\SETTINGS.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "QUIT",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Assets\\Buttons\\QUIT.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -445,6 +625,75 @@
               "parameters": [
                 "\"https://unofficialdxnny.netlify.app\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AdvancedWindow::IsFullScreenable"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AdvancedWindow::SetFullScreenable"
+              },
+              "parameters": [
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "no",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "AdvancedWindow::SetMaximizable"
+              },
+              "parameters": [
+                "no",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "QUIT",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                "no"
               ]
             }
           ]
