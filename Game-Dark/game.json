@@ -74,6 +74,15 @@
         "name": "Assets\\Buttons\\Arrow.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Images/bg.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Images\\bg.jpg",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -85,6 +94,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/loading-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-menu-scene"
     }
   ],
   "externalEvents": [],
