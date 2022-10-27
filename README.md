@@ -1,4 +1,4 @@
-# Baxk2Adventure
+# Back2Adventure
 <p>This repository is for my game project</p>
 
 ----
