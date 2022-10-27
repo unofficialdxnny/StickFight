@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6599999999999998,
+    "zoomFactor": 0.33999999999999947,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -27,14 +27,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 507,
+      "height": 518,
       "layer": "",
-      "name": "Intro",
-      "persistentUuid": "a09f48d0-0b0d-45ce-b8a8-78becac8f684",
-      "width": 1301,
-      "x": 0,
-      "y": -3,
-      "zOrder": 1,
+      "name": "typewriterintro",
+      "persistentUuid": "675e411e-1d20-437e-bb87-c084790c8b39",
+      "width": 1314,
+      "x": -3,
+      "y": -4,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -42,14 +42,14 @@
     {
       "angle": 0,
       "customSize": true,
-      "height": 50,
+      "height": 515,
       "layer": "",
-      "name": "Arrow",
-      "persistentUuid": "4d63f2c8-2488-4be5-ac8e-2e66c7243554",
-      "width": 50,
-      "x": 1216,
-      "y": 415,
-      "zOrder": 2,
+      "name": "RetroIntro",
+      "persistentUuid": "ac54d6c9-0d8d-496d-8c46-6b913ccc915c",
+      "width": 1317,
+      "x": -8,
+      "y": 1,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -111,6 +111,77 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "typewriterintro",
+      "tags": "",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Assets\\Loading\\Loading Effect TW.mp4"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\ColourBG\\Black.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "RetroIntro",
+      "tags": "",
+      "type": "Video::VideoObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "opacity": 255,
+        "loop": false,
+        "volume": 100,
+        "videoResource": "Assets\\Loading\\Game BG 5fps.mp4"
+      }
     }
   ],
   "events": [
@@ -122,7 +193,7 @@
             "value": "SourisSurObjet"
           },
           "parameters": [
-            "Intro",
+            "RetroIntro",
             "",
             "",
             ""
@@ -141,7 +212,7 @@
             "value": "Video::Play"
           },
           "parameters": [
-            "Intro"
+            "RetroIntro"
           ]
         }
       ]
@@ -151,11 +222,10 @@
       "conditions": [
         {
           "type": {
-            "value": "MouseButtonPressed"
+            "value": "Video::Ended"
           },
           "parameters": [
-            "",
-            "Left"
+            "RetroIntro"
           ]
         }
       ],
@@ -167,6 +237,68 @@
           "parameters": [
             "",
             "\"Main Menu Scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AdvancedWindow::SetMaximizable"
+          },
+          "parameters": [
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGameResolutionSize"
+          },
+          "parameters": [
+            "",
+            "1300",
+            "500"
+          ]
+        },
+        {
+          "type": {
+            "value": "CenterWindow"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetWindowSize"
+          },
+          "parameters": [
+            "",
+            "1300",
+            "500",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetResizable"
+          },
+          "parameters": [
+            "no",
             ""
           ]
         }

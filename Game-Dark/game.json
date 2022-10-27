@@ -83,6 +83,202 @@
         "name": "Assets\\Images\\bg.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/PLAY.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\PLAY.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/PLAY_PRESSED.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\PLAY_PRESSED.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/QUIT.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\QUIT.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/SETTINGS.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\SETTINGS.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/SETTINGS_PRESSED.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\SETTINGS_PRESSED.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/Credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\Credits.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/CREDITS_PRESSED.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\CREDITS_PRESSED.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Assets/Sounds/button_down.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\button_down.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Sounds/button_down_audacity_sound_reduction.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\button_down_audacity_sound_reduction.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Loading/Loading Effect TW.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Assets\\Loading\\Loading Effect TW.mp4",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/ColourBG/Black.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\ColourBG\\Black.webp",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Change Log/ChangeLog.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Change Log\\ChangeLog.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Change Log/ChangeLog-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Change Log\\ChangeLog-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/v2/PLAY.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\v2\\PLAY.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/v2/PLAY_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\v2\\PLAY_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/v2/Settings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\v2\\Settings.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/v2/Settings_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\v2\\Settings_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/v2/Credits.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\v2\\Credits.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/v2/Credits_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\v2\\Credits_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/v2/Quit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\v2\\Quit.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/v2/Quit_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\v2\\Quit_Pressed.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Loading/Game BG 5fps.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Assets\\Loading\\Game BG 5fps.mp4",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
