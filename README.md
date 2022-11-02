@@ -27,4 +27,5 @@
 ## Plan
 ----
 
-<img src="" alt="Flowchart will go here">
+
+![image](https://user-images.githubusercontent.com/82535503/199485510-3425cae6-85e5-47e9-b780-998f80feebea.png)
