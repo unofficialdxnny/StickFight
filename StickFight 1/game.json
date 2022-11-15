@@ -72,6 +72,42 @@
         "metadata": "",
         "name": "Assets\\Fonts\\Stick_V.2.ttf",
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Backgrounds/Loading.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Backgrounds\\Loading.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\Play.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/Settings.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\Settings.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Buttons/Quit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Buttons\\Quit.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

@@ -26,21 +26,6 @@
   "instances": [
     {
       "angle": 0,
-      "customSize": true,
-      "height": 512,
-      "layer": "",
-      "name": "Loading_Background",
-      "persistentUuid": "ccd5770b-e47e-4c5b-8952-76dd34fec46f",
-      "width": 1410,
-      "x": -101,
-      "y": -1,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -53,9 +38,51 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 500,
+      "layer": "",
+      "name": "Loading_Background",
+      "persistentUuid": "9057f55b-24a5-42f1-983b-0856c9860053",
+      "width": 1374,
+      "x": -117,
+      "y": 1,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "FPS",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "FPSDisplayer",
+          "type": "FPS::FPSDisplayer",
+          "prefix": "FPS: "
+        }
+      ],
+      "string": "",
+      "font": "",
+      "characterSize": 10,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
     {
       "assetStoreId": "",
       "name": "Loading_Background",
@@ -67,7 +94,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Loading-Background",
+          "name": "Loading_Background",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -76,7 +103,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Assets\\Images\\Backgrounds\\Loading.png",
+                  "image": "Assets\\Backgrounds\\Loading.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -96,40 +123,41 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "FPS",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "FPSDisplayer",
-          "type": "FPS::FPSDisplayer",
-          "prefix": "FPS: "
-        }
-      ],
-      "string": "FPS",
-      "font": "",
-      "characterSize": 20,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
     }
   ],
   "events": [
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AdvancedWindow::SetResizable"
+          },
+          "parameters": [
+            "no",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AdvancedWindow::SetMinimizable"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
