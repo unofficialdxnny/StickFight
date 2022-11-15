@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.7599999999999998,
+    "zoomFactor": 0.5199999999999996,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -68,6 +68,21 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "height": 1611,
+      "layer": "",
+      "name": "Background",
+      "persistentUuid": "c23f8a62-68b4-499d-a3b0-8c9c5a82568d",
+      "width": 1753,
+      "x": -360,
+      "y": -1085,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -81,7 +96,21 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Play_Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "177;6;6"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "string": "Play",
       "font": "Assets\\Fonts\\Stick_V.2.ttf",
@@ -102,7 +131,21 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Settings_Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "177;6;6"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "string": "Settings",
       "font": "Assets\\Fonts\\Stick_V.2.ttf",
@@ -123,7 +166,21 @@
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Quit_Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "177;6;6"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "string": "Quit",
       "font": "Assets\\Fonts\\Stick_V.2.ttf",
@@ -133,6 +190,47 @@
         "g": 0,
         "r": 0
       }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Background",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Background",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "Assets\\Backgrounds\\Loading.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
