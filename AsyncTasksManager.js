@@ -3,3 +3,4 @@ If you are using JavaScript promises in an asynchronous action, make sure to add
 Otherwise, report this as a bug on the GDevelop forums!
 ${s?"The following error was thrown: "+s:""}`)}).then(()=>{this.isResolved=!0})}update(){return this.isResolved}}r.PromiseTask=k})(gdjs||(gdjs={}));
 //# sourceMappingURL=AsyncTasksManager.js.map
+// Error message thrown during startup (if any)/..
