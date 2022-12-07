@@ -11,7 +11,7 @@ gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.conditionTrue_0 = {val:false
 gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.condition0IsTrue_0 = {val:false};
 
 
-gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x9218d0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x7f3c28 = function(runtimeScene, eventsFunctionContext) {
 "use strict";
 const remote = runtimeScene.getGame().getRenderer().getElectronRemote
     ? runtimeScene.getGame().getRenderer().getElectronRemote()
@@ -32,7 +32,7 @@ gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.eventsList0 = function(runti
 {
 
 
-gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x9218d0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.userFunc0x7f3c28(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 

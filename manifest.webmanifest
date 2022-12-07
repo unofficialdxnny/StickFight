@@ -1,7 +1,7 @@
 {
   "name": "StickFight 1",
   "short_name": "StickFight 1",
-  "id": "com.example.gamename",
+  "id": "com.example.stickfight",
   "description": "",
   "orientation": "landscape",
   "start_url": "./index.html",

@@ -14,7 +14,7 @@ gdjs.Map_32SelectCode.condition1IsTrue_0 = {val:false};
 gdjs.Map_32SelectCode.condition2IsTrue_0 = {val:false};
 
 
-gdjs.Map_32SelectCode.asyncCallback9971012 = function (runtimeScene, asyncObjectsList) {
+gdjs.Map_32SelectCode.asyncCallback10861044 = function (runtimeScene, asyncObjectsList) {
 }
 gdjs.Map_32SelectCode.eventsList0 = function(runtimeScene) {
 
@@ -24,7 +24,7 @@ gdjs.Map_32SelectCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Map_32SelectCode.asyncCallback9971012(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Map_32SelectCode.asyncCallback10861044(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -67,6 +67,7 @@ gdjs.Map_32SelectCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButton
 if (gdjs.Map_32SelectCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", false);
 }{gdjs.evtTools.sound.playSound(runtimeScene, "Assets\\Sounds\\Click_Sound_Effect.mp3", false, 50, 1);
+}{gdjs.evtTools.window.setWindowTitle(runtimeScene, "StickFight - Maps");
 }}
 
 }

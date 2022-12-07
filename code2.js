@@ -5,6 +5,10 @@ gdjs.SettingsCode.GDNewSprite2Objects1= [];
 gdjs.SettingsCode.GDNewSprite2Objects2= [];
 gdjs.SettingsCode.GDBgObjects1= [];
 gdjs.SettingsCode.GDBgObjects2= [];
+gdjs.SettingsCode.GDSliderObjects1= [];
+gdjs.SettingsCode.GDSliderObjects2= [];
+gdjs.SettingsCode.GDNewShapePainterObjects1= [];
+gdjs.SettingsCode.GDNewShapePainterObjects2= [];
 
 gdjs.SettingsCode.conditionTrue_0 = {val:false};
 gdjs.SettingsCode.condition0IsTrue_0 = {val:false};
@@ -54,6 +58,10 @@ gdjs.SettingsCode.GDNewSprite2Objects1.length = 0;
 gdjs.SettingsCode.GDNewSprite2Objects2.length = 0;
 gdjs.SettingsCode.GDBgObjects1.length = 0;
 gdjs.SettingsCode.GDBgObjects2.length = 0;
+gdjs.SettingsCode.GDSliderObjects1.length = 0;
+gdjs.SettingsCode.GDSliderObjects2.length = 0;
+gdjs.SettingsCode.GDNewShapePainterObjects1.length = 0;
+gdjs.SettingsCode.GDNewShapePainterObjects2.length = 0;
 
 gdjs.SettingsCode.eventsList0(runtimeScene);
 return;

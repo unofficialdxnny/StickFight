@@ -40,7 +40,7 @@ gdjs.Loading_32ScreenCode.condition2IsTrue_1 = {val:false};
 gdjs.Loading_32ScreenCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.Loading_32ScreenCode.asyncCallback9916948 = function (runtimeScene, asyncObjectsList) {
+gdjs.Loading_32ScreenCode.asyncCallback10790676 = function (runtimeScene, asyncObjectsList) {
 gdjs.copyArray(runtimeScene.getObjects("Background_Final"), gdjs.Loading_32ScreenCode.GDBackground_95FinalObjects2);
 {gdjs.evtTools.sound.playSound(runtimeScene, "Assets\\Sounds\\Background Music.mp3", false, 5, 1);
 }{gdjs.evtTools.advancedWindow.setResizable(false, runtimeScene);
@@ -51,7 +51,7 @@ gdjs.copyArray(runtimeScene.getObjects("Background_Final"), gdjs.Loading_32Scree
 }{gdjs.evtTools.window.setWindowTitle(runtimeScene, "StickFight");
 }{gdjs.evtTools.sound.playSound(runtimeScene, "Assets\\Sounds\\Background_Music(Creative_Commons).mp3", false, 10, 1);
 }{gdjs.evtsExt__DiscordRichPresence__ConnectToDiscord.func(runtimeScene, "1046748678733430804", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
-}{gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.func(runtimeScene, "", "Loading Screen", 0, 0, "StickFight", "Logo", "", "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__DiscordRichPresence__UpdateRichPresence.func(runtimeScene, "", "", 0, 0, "https://cdn.discordapp.com/app-icons/1046748678733430804/d2110c9e8035d89d1d25b72a7ac9f241.png", "Logo", "", "", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }}
 gdjs.Loading_32ScreenCode.eventsList0 = function(runtimeScene) {
 
@@ -61,7 +61,7 @@ gdjs.Loading_32ScreenCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Loading_32ScreenCode.asyncCallback9916948(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.Loading_32ScreenCode.asyncCallback10790676(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -101,7 +101,7 @@ gdjs.Loading_32ScreenCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseBu
 }if ( gdjs.Loading_32ScreenCode.condition1IsTrue_0.val ) {
 {
 {gdjs.Loading_32ScreenCode.conditionTrue_1 = gdjs.Loading_32ScreenCode.condition2IsTrue_0;
-gdjs.Loading_32ScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9919772);
+gdjs.Loading_32ScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10793132);
 }
 }}
 }
@@ -118,6 +118,7 @@ gdjs.copyArray(runtimeScene.getObjects("Background_Final"), gdjs.Loading_32Scree
 
 gdjs.Loading_32ScreenCode.condition0IsTrue_0.val = false;
 gdjs.Loading_32ScreenCode.condition1IsTrue_0.val = false;
+gdjs.Loading_32ScreenCode.condition2IsTrue_0.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.Loading_32ScreenCode.GDBackground_95FinalObjects1.length;i<l;++i) {
     if ( gdjs.Loading_32ScreenCode.GDBackground_95FinalObjects1[i].isPlayed() ) {
@@ -129,8 +130,14 @@ for(var i = 0, k = 0, l = gdjs.Loading_32ScreenCode.GDBackground_95FinalObjects1
 gdjs.Loading_32ScreenCode.GDBackground_95FinalObjects1.length = k;}if ( gdjs.Loading_32ScreenCode.condition0IsTrue_0.val ) {
 {
 gdjs.Loading_32ScreenCode.condition1IsTrue_0.val = gdjs.evtTools.input.anyKeyPressed(runtimeScene);
+}if ( gdjs.Loading_32ScreenCode.condition1IsTrue_0.val ) {
+{
+{gdjs.Loading_32ScreenCode.conditionTrue_1 = gdjs.Loading_32ScreenCode.condition2IsTrue_0;
+gdjs.Loading_32ScreenCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10794492);
+}
 }}
-if (gdjs.Loading_32ScreenCode.condition1IsTrue_0.val) {
+}
+if (gdjs.Loading_32ScreenCode.condition2IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", false);
 }{gdjs.evtTools.sound.playSound(runtimeScene, "Assets\\Sounds\\Click_Sound_Effect.mp3", false, 100, 1);
 }}

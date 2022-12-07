@@ -11,7 +11,7 @@ gdjs._50_95winsCode.condition0IsTrue_0 = {val:false};
 gdjs._50_95winsCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs._50_95winsCode.asyncCallback10030756 = function (runtimeScene, asyncObjectsList) {
+gdjs._50_95winsCode.asyncCallback10938164 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Main Menu", false);
 }}
 gdjs._50_95winsCode.eventsList0 = function(runtimeScene) {
@@ -22,7 +22,7 @@ gdjs._50_95winsCode.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs._50_95winsCode.asyncCallback10030756(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(5), (runtimeScene) => (gdjs._50_95winsCode.asyncCallback10938164(runtimeScene, asyncObjectsList)));
 }
 }
 
