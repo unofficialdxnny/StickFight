@@ -10,7 +10,15 @@ The 2 player 1v1 fighter STICKFIGHT is here! Grab a soul and fight each other. D
 
 
 
-### Images
+### Gantt Charts
+- These show progress of the game
 
+![image](https://user-images.githubusercontent.com/82535503/206720239-bc672fd8-8f75-403c-94d1-2b1fb5acbeae.png)
+![image](https://user-images.githubusercontent.com/82535503/206720529-c81b79fb-2fd0-4cb7-9e4f-8a713978e0a1.png)
 
-![Soon]()
+- The show the current games looks
+
+![image](https://user-images.githubusercontent.com/82535503/206723053-f5c469f3-01a9-4c5f-8ae4-e69442ffa8a0.png)
+![image](https://user-images.githubusercontent.com/82535503/206723141-04a88f0b-d9b6-4aa8-af81-b44a0a3f61e9.png)
+![image](https://user-images.githubusercontent.com/82535503/206723167-236313a0-f874-4523-8f50-51abb4b8d9c9.png)
+![image](https://user-images.githubusercontent.com/82535503/206723354-063bc820-8c0a-405b-83af-3c3ac0ff67a2.png)
