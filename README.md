@@ -8,6 +8,19 @@ The 2 player 1v1 fighter STICKFIGHT is here! Grab a soul and fight each other. D
 
 <img src="https://cdn-icons-png.flaticon.com/512/136/136525.png" width="50" height="50"><img src="https://cdn-icons-png.flaticon.com/512/1051/1051277.png" width="50" height="50"> <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" width="50" height="50"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" width="50" height="50"> <img src="https://cdn.worldvectorlogo.com/logos/electron-1.svg" width="50" height="50"> <img src="https://i.imgur.com/4Z9ZJJS.png" width="50" height="50"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968520.png" width="50" height="50"> <img src="https://i.imgur.com/FNuUSpg.png" width="50" height="50"> <img src="https://cdn-icons-png.flaticon.com/512/5968/5968428.png" width="50" height="50">
 
+## Controls
+- P: Used to quickly go from Main Menu to the Map Selection menu, which allows you as the player to save some valuable seconds.
+- M: The ‘M’ key is used to mute the games global sounds output. This means that once pressed you will hear no sound being emitted by the 
+game. Not to worry to deactivate just press ‘M’ again.
+- B: This key is used to go ‘Back to the ‘Main Menu’, Again saving you valuable seconds of gameplay.
+
+- Now finally once you are in the map the keys that will be used are:
+- Player 1 (Blue):
+- W, A, S and D for moving UP, Left, Down and Right. The final key that will be used is ‘E’ which is this players attack and the player will receive a ‘+1’ score.
+- Player 2 (Red):
+- ← ↑ → ↓ for moving Left, Up Right and Down. The final key that will be used is ‘L’ which is this players attack and the player will receive a ‘+1’ score.
+
+
 
 
 ### Gantt Charts
