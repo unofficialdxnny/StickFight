@@ -1,17 +1,0 @@
-Adobe After Effects v22.0 Windows 64 render log for project “Song_Now_Playing.aep”
-
-Rendering started on 21/11/2022 at 12:01:47
-
-  21/11/2022 12:01:47: Starting composition “spotify”.
-
-  Output To: D:\Projects\Game Project\StickFight 1\Assets\Backgrounds\spotify.mov    21/11/2022 12:02:02: Finished composition “spotify”.
-
-
-  21/11/2022 12:02:02: Starting composition “music_info_animation”.
-
-  Output To: D:\Projects\Game Project\StickFight 1\Assets\Backgrounds\Music_Now_Playing.mov    21/11/2022 12:02:12: Finished composition “music_info_animation”.
-
-
-  Total Time Elapsed: 24 Seconds
-Log closed on 21/11/2022 at 12:02:12
-

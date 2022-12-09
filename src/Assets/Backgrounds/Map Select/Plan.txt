@@ -1,3 +1,0 @@
-When Mouse hovers the map the hover animation is played with some text about information on the map.
-
-When Mouse is not hovering the map image animation reverse itself.
