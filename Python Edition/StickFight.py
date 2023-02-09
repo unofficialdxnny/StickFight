@@ -34,7 +34,11 @@ menuColor = (80, 18, 25)
 surface.fill(menuColor)
 playBtn = pygame.image.load('Play.png').convert()
 
-surface.blit(playBtn, (0, 0))
+playBtn2 = pygame.image.load('Play.png').convert()
+
+surface.blit(playBtn, (600, 200))
+
+surface.blit(playBtn2, (600, 300))
 
 pygame.display.update()
 
