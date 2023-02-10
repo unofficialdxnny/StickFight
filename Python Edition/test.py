@@ -2,26 +2,43 @@ import pygame
 from pygame.locals import *
 from pygame import mixer
 from moviepy.editor import *
+import keyboard as kb
+import json
+from time import sleep
+import time
+import os
 
+start_time=time.time() 
 
-width = 800
-height = 600
-color_bg = (0, 0, 0)
-color_text = (200, 200, 200)
-button_clicked = False
-running = True
-
-    
+os.system('cls')
 pygame.init()
-screen = pygame.display.set_mode((width, height))
-pygame.display.set_caption("StickFight | Main")
+
+CLOCK = pygame.time.Clock()
+SCREEN = pygame.display.set_mode((1300, 500))
+
+
+X_POSITION, Y_POSITION = 80, 450
+
+jumping = False
+
+Y_GRAVITY = 0.6
+JUMP_HEIGHT = 10
+Y_VELOCITY = JUMP_HEIGHT
+
+STANDING_SURFACE = pygame.transform.scale(pygame.image.load("IDLE.png"), (50, 64))
+JUMPING_SURFACE = pygame.transform.scale(pygame.image.load("jump.png"), (50, 64))
+BACKGROUND = pygame.image.load("levelOne.png")
+
+stick_rect = (0, 300)
+
+score = 0
 
 1 == mixer.music.load('BGMPotentialKav.wav')
 mixer.music.play(1)
 logo = pygame.image.load('logo.png')
 pygame.display.set_icon(logo)
 
-self.screen_rect = screen.get_rect()
+
 
 
 clip = VideoFileClip('Loading.mp4')
@@ -30,60 +47,39 @@ clip = VideoFileClip('Loading.mp4')
 
 clip.preview()
 
-surface = pygame.display.set_mode((1300, 500))
-   
-menuColor = (80, 18, 25)
-surface.fill(menuColor)
-playBtn = pygame.image.load('Play.png').convert_alpha()
-
-
-mouse_position = pygame.mouse.get_pos()
-
-while running:
+while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
-            running = False
-
-
-
-
-        
-
-        
-        
-
-        pygame.display.set_caption('StickFight | Loading')
-
-        
-
-
-
-        class Buttons():
-            def __init__(self, x, y,  image):
-                self.image = image
-                self.rect = self.image.get_rect()
-                self.rect.topleft = (x, y)
-
-            def draw(self):
-                surface.blit(self.image, (self.rect.x, self.rect.y))
-
-        pygame.display.set_caption('StickFight | Main Menu')
-        
-        screen.fill(menuColor)
-
-
-
+            pygame.quit()
+            sys.exit()
 
 
 
     
-        play_button = Buttons(350, 200, playBtn)
+    
+    pygame.display.set_caption(f"StickFight | Level One | Score {start_time}")
+    keys_pressed = pygame.key.get_pressed()
 
-        play_button.draw()
+    if keys_pressed[pygame.K_SPACE]:
+        jumping = True
 
-        if event.type == pygame.MOUSEBUTTONDOWN:
-            play_button_clicked = True if playBtn.collidepoint(350, 200) else False
+    SCREEN.blit(BACKGROUND, (0, 0))
+    
+    if jumping:
+        Y_POSITION -= Y_VELOCITY
+        Y_VELOCITY -= Y_GRAVITY
+        if Y_VELOCITY < -JUMP_HEIGHT:
+            jumping = False
+            Y_VELOCITY = JUMP_HEIGHT
+        stick_rect = JUMPING_SURFACE.get_rect(center=(X_POSITION, Y_POSITION))
+        SCREEN.blit(JUMPING_SURFACE, stick_rect)
+    else:
+        stick_rect = STANDING_SURFACE.get_rect(center=(X_POSITION, Y_POSITION))
+        SCREEN.blit(STANDING_SURFACE, stick_rect)
+    
+    
 
-        pygame.display.update()
 
 
+    pygame.display.update()
+    CLOCK.tick(60)
